@@ -1,0 +1,257 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo para o menu */
+header nav {
+	width: 100%;
+	background-color: #a5b776;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav div {
+	width: 50%;
+}
+
+.logo {
+	/* Estilo para a logo */
+}
+
+.logo img {
+	mix-blend-mode: multiply;
+}
+
+.menu {
+	/* Estilo para a lista de links */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu li {
+	margin: 0 3%;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #f3f3f3;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+
+.menu li a:hover {
+	color: #ffffff;
+}
+
+/* Estilos para a seção de fundo verde */
+.green-background {
+	background-color: #a5b776;
+	color: #fff;
+	padding: 20px;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+}
+
+/* Estilos para a seção de fundo branco */
+.white-background {
+	background-color: #ebebeb;
+	padding: 20px;
+	height: 100%;
+}
+
+/* Estilos para o conteúdo das seções */
+.white-background .content>p {
+	margin: 2% 0% 4% 0;
+}
+
+.content {
+	width: 60%;
+	padding-left: 3%;
+}
+
+.content h1 {
+	font-size: 48px;
+	margin: 0;
+	margin-bottom: 2%;
+}
+
+.content p {
+	font-size: 16px;
+	margin: 0;
+	width: 80%;
+}
+
+/* Estilos para as perguntas e respostas */
+.question {
+	margin-bottom: 10px;
+}
+
+.question h2 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #2f5207;
+	margin: 0.6% 0;
+}
+
+.question p {
+	font-size: 14px;
+	margin: 0;
+	padding-left: 1%;
+}
+
+.entre-contato {
+	margin: 5% 0;
+}
+
+.entre-contato {
+	
+}
+
+/* Estilos para o formulário */
+.form-container {
+	position: absolute;
+	top: 23%;
+	right: 10%;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.form-row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 2px;
+	gap: 10px;
+}
+
+.form-row label {
+	padding: 2px;
+}
+
+.form-row input,
+.form-row textarea {
+	border: 1px solid #ccc;
+	padding: 5px;
+	resize: none;
+}
+
+.form-row input[type="text"],
+.form-row input[type="number"],
+.form-row textarea {
+	width: 100%;
+}
+
+.form-btn {
+	text-align: center;
+}
+
+button[type="submit"] {
+	background-color: #2f5207;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #004d00;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+	width: 100%;
+	background-color: #404040;
+	padding: 20px 0;
+	text-align: center;
+	clear: both;
+}
+
+.div-footer {
+	display: flex;
+	align-items: center;
+	padding: 0.4%;
+}
+
+.footer-links {
+	width: 40%;
+}
+
+.footer-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footer-links li {
+	margin-bottom: 10px;
+}
+
+.footer-links li a {
+	text-decoration: none;
+	color: #b1b1b1;
+	transition: 0.7s;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+.footer-links li a:hover {
+	color: #ffffff;
+	padding-left: 10px;
+	transition: 0.7s;
+}
+
+.footer-infos {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	align-items: center;
+}
+
+.footer-logo a {
+	color: #51833d;
+	font-size: 32px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer-text {
+	font-size: 12px;
+	margin-top: 10px;
+	color: #b7b7b7;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.integrantes {
+	width: 40%;
+	text-align: end;
+}
+
+.integrantes li {
+	margin-bottom: 10px;
+}
+
+.integrantes a {
+	text-decoration: none;
+	color: #b1b1b1;
+	transition: 0.7s;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+.integrantes a:hover {
+	color: #ffffff;
+	padding-right: 10px;
+	transition: 0.7s;
+}
